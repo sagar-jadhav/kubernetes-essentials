@@ -51,7 +51,7 @@ kubectl config set-context --current --namespace=demo
 ```
 
 ## Step 3: Create secret db-secret
-Store MySQL root password in secret
+Store MySQL root password in secret.
 
 ```
 kubectl create -f secret.yaml
@@ -101,8 +101,10 @@ kubectl create -f phpmyadmin-service.yaml
 
 ## Step 9: Browse phpmyadmin application
 
-Go to browser and browse http://<IP_ADDRESS>:30030
+Go to browser and browse http://<IP_ADDRESS>:30030. Login with `root` user & `test` password
 
 here IP_ADDRESS is the ip address of virtual machine where kubernetes is running.
  
+## Demo
 
+![demo](./demo.gif)
