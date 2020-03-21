@@ -69,6 +69,11 @@ kubectl create -f configmap.yaml
 ```
 kubectl create -f db-deployment.yaml
 ```
+```
+kubectl get pods --watch
+```
+Exit when pod goes into running state
+
 
 ## Step 6: Create service for MySQL
 Here service type `ClusterIP` is used so that it is accessible only inside the cluster. 
@@ -80,14 +85,18 @@ kubectl create -f db-service.yaml
 ## Step 7: Create deployment for phpmyadmin
 
 ```
-kubectl create -f db-deployment.yaml
+kubectl create -f phpmyadmin-deployment.yaml
 ```
+```
+kubectl get pods --watch
+```
+Exit when pod goes into running state
 
 ## Step 8: Create service for phpmyadmin
 Here service type `NodePort` is used so that it is accessible outside the cluster. 
 
 ```
-kubectl create -f db-service.yaml
+kubectl create -f phpmyadmin-service.yaml
 ```
 
 ## Step 9: Browse phpmyadmin application
