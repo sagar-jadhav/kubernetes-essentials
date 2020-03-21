@@ -35,7 +35,7 @@ git clone https://github.com/sagar-jadhav/kubernetes-essentials.git
 
 ### Go to `session_1` directory
 ```
-cd ./kubernetes-essentials/
+cd ./kubernetes-essentials/session_1/
 ```
 
 ## Step 1: Create demo namespace
@@ -54,14 +54,14 @@ kubectl config set-context --current --namespace=demo
 Store MySQL root password in secret
 
 ```
-kubectl create -f db-secret.yaml
+kubectl create -f secret.yaml
 ```
 
 ## Step 4: Create configmap db-config
 Store host & port in configmap
 
 ```
-kubectl create -f db-config.yaml
+kubectl create -f configmap.yaml
 ```
 
 ## Step 5: Create deployment for MySQL
