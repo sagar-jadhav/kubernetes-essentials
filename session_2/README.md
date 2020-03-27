@@ -17,7 +17,7 @@ Request for a storage by user. Learn more [here](https://kubernetes.io/docs/conc
 ### Deploy PHPMyAdmin Application
 Follow [Deploy phpMyAdmin application on kubernetes](./../session_1/README.md) blog
 
-### Go to session_2 director
+### Go to session_2 directory
 ```
 cd ../session_2/
 ```
@@ -54,8 +54,7 @@ kubectl delete deployment db
 ```
 kubectl create -f db-deployment.yaml
 ```
-Here `db-deployment.yaml` is updated YAML with volume & volume mounts.
-Watch pods
+Here `db-deployment.yaml` is updated YAML with volume & volume mounts. Next watch pods.
 ```
 kubectl get pods -n watch
 ```
