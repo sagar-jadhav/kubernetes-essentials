@@ -70,7 +70,7 @@ kubectl get pods
 Go to browser and browse http://myapp.xyz
 ![Demo](./demo.gif)
 
-## Remove PHPMyAdmin application
+## Step 8: Remove PHPMyAdmin application
 ```
 helm uninstall phpmyadmin
 ```
