@@ -7,6 +7,8 @@ In [Deploy phpMyAdmin application on kubernetes](./../session_1/README.md) blog 
 
 ![Architecture](./architecture.JPG)
 
+## Prerequisites:
+
 ### Deploy PHPMyAdmin Application
 Follow [Deploy phpMyAdmin application on kubernetes](./../session_1/README.md) blog
 

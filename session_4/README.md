@@ -6,10 +6,12 @@ Kubernetes uses `Readiness` & `Liveness` probes to manage pod lifecycle. Readine
 
 ![Architecture](./architecture.JPG)
 
+## Prerequisites:
+
 ### Deploy PHPMyAdmin Application
 Follow [Deploy phpMyAdmin application on kubernetes](./../session_1/README.md) blog
 
-### Go to session_2 directory
+### Go to session_4 directory
 ```
 cd ../session_4/
 ```
