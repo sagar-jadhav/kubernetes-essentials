@@ -54,3 +54,4 @@ Get <INGRESS_ADDRESS> from `kubectl get ingress`
 
 ## Step 6: Browse PHPMyAdmin application using custom hostname
 Go to browser and browse http://myapp.xyz
+![Demo](./demo.gif)
