@@ -27,7 +27,7 @@ Reference:
 - https://www.linuxbabe.com/ubuntu/nfs-share
 - https://vitux.com/install-nfs-server-and-client-on-ubuntu/
 
-I have created NFS mount at `/mnt/share` location on VM with IP `192.168.1.6`
+I have created NFS mount at `/mnt/share` location on VM with IP `192.168.1.7`
 
 ## Step 2: Create Persistent Volume (PV) 
 ```
