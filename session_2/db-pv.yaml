@@ -11,4 +11,4 @@ spec:
   persistentVolumeReclaimPolicy: Recycle
   nfs:
     path: /mnt/share
-    server: 192.168.1.7
+    server: 192.168.1.6
